@@ -1,7 +1,6 @@
 package com.github.easyexcel4j.reader.util;
 
 import com.github.easyexcel4j.metadata.ExcelType;
-import com.github.easyexcel4j.reader.resolver.ReaderResolverV03;
 import com.github.easyexcel4j.reader.resolver.ReaderResolverV07;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.apache.poi.ss.usermodel.Cell;
