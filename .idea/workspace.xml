@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0e3cc07-eab9-4ff8-a2dd-8d04b0c76555" name="Default" comment="增加测试用例" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/easyexcel4j$ExampleEventUserModel.ic" NAME="ExampleEventUserModel Coverage Results" MODIFIED="1526028574039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.easyexcel4j.reader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/easyexcel4j$ReaderExcelUtilTest_test2.ic" NAME="ReaderExcelUtilTest.test2 Coverage Results" MODIFIED="1526486325441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.easyexcel4j.reader.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/easyexcel4j$ExcelReaderUtilTest.ic" NAME="ExcelReaderUtilTest Coverage Results" MODIFIED="1526976886487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.easyexcel4j.reader.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/easyexcel4j$ReaderExcelUtilTest.ic" NAME="ReaderExcelUtilTest Coverage Results" MODIFIED="1526489205937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.easyexcel4j.reader.resolver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/easyexcel4j$ReaderExcelUtilTest_testReadExcel2ModelList1.ic" NAME="ReaderExcelUtilTest.testReadExcel2ModelList1 Coverage Results" MODIFIED="1526491589145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.easyexcel4j.reader.util.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:\Code\idea\Coverge" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/TestModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1848#1849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelReaderUtilTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ExcelReaderUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>POIFSFileSystem</find>
+      <find>minColumns</find>
+      <find>getType</find>
+      <find>value</find>
+      <find>cell</find>
+      <find>characters</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/ReaderUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLSX2CSV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/ExcelSheetParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XSSFSheetXMLHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/ExampleEventUserModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/context/ReaderContextV03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/context/ReaderContextV07.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ModelExcelReaderListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/MyTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ModelExcelReaderListenerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/TestExcelReaderListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/util/ExcelDateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/XSSFSheetXMLHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/Util/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/Util/ReaderExcelUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/Util/ReaderExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/util/ReaderExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/Project.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/Project.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ProjectWithModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ReaderExcelUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/writer/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/metadata/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/Decoration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/writer/Project.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/writer/util/Project.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/writer/util/ExcelWriterUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/context/ReaderContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/AutoModelExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/DefaultExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/DefaultModelExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ExcelReaderListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ExcelReaderListenerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/util/CommonConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/metadata/ExcelType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/annotation/Excel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/util/ExcelWriterContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/util/ExcelWriterUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV07Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV03Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV07.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/TestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/util/ExcelReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ReadLargeSheet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ExcelReaderUtilTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easyexcel4j" type="58d84e3e:PackageViewProjectNode" />
+              <item name="easyexcel4j" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="58d84e3e:PackageViewProjectNode" />
+              <item name="easyexcel4j" type="616d4139:PackageViewModuleNode" />
+              <item name="com.github.easyexcel4j" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyexcel4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyexcel4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../easyexcel" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.easyexcel4j.reader.util" />
+      <recent name="com.github.easyexcel4j.reader.resolver" />
+      <recent name="com.github.easyexcel4j.writer.util" />
+      <recent name="com.github.easyexcel4j.reader.Util" />
+      <recent name="com.github.easyexcel4j.reader" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.easyexcel4j.reader.resolver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.easyexcel4j.writer.util" />
+      <recent name="com.github.easyexcel4j.reader.writer" />
+      <recent name="com.github.easyexcel4j.reader.util" />
+      <recent name="com.github.easyexcel4j.reader.resolver" />
+      <recent name="com.github.easyexcel4j.reader" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\idea\easyexcel4j\src\test\java\doc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ExcelReaderUtilTest.createExcel">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ExcelReaderUtilTest.createExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyexcel4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.easyexcel4j.reader.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.easyexcel4j.reader.util" />
+      <option name="MAIN_CLASS_NAME" value="com.github.easyexcel4j.reader.util.ExcelReaderUtilTest" />
+      <option name="METHOD_NAME" value="createExcel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExcelReaderUtilTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyexcel4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.easyexcel4j.reader.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.easyexcel4j.reader.util" />
+      <option name="MAIN_CLASS_NAME" value="com.github.easyexcel4j.reader.util.ExcelReaderUtilTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExcelReaderUtilTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyexcel4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.easyexcel4j.reader.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.easyexcel4j.reader.util" />
+      <option name="MAIN_CLASS_NAME" value="com.github.easyexcel4j.reader.util.ExcelReaderUtilTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExcelReaderUtilTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyexcel4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.easyexcel4j.reader.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.easyexcel4j.reader.util" />
+      <option name="MAIN_CLASS_NAME" value="com.github.easyexcel4j.reader.util.ExcelReaderUtilTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExcelReaderUtilTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyexcel4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.easyexcel4j.reader.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.easyexcel4j.reader.util" />
+      <option name="MAIN_CLASS_NAME" value="com.github.easyexcel4j.reader.util.ExcelReaderUtilTest" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ExcelReaderUtilTest.createExcel" />
+      <item itemvalue="JUnit.ExcelReaderUtilTest.test7" />
+      <item itemvalue="JUnit.ExcelReaderUtilTest.test8" />
+      <item itemvalue="JUnit.ExcelReaderUtilTest.test9" />
+      <item itemvalue="JUnit.ExcelReaderUtilTest.test10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExcelReaderUtilTest.createExcel" />
+        <item itemvalue="JUnit.ExcelReaderUtilTest.test10" />
+        <item itemvalue="JUnit.ExcelReaderUtilTest.test9" />
+        <item itemvalue="JUnit.ExcelReaderUtilTest.test8" />
+        <item itemvalue="JUnit.ExcelReaderUtilTest.test7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e3cc07-eab9-4ff8-a2dd-8d04b0c76555" name="Default" comment="" />
+      <created>1525499230046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525499230046</updated>
+      <workItem from="1525499233959" duration="8596000" />
+      <workItem from="1525509517279" duration="648000" />
+      <workItem from="1525510187470" duration="366000" />
+      <workItem from="1525510575899" duration="6692000" />
+      <workItem from="1525533015756" duration="36000" />
+      <workItem from="1525684802394" duration="58337000" />
+      <workItem from="1525876582753" duration="20086000" />
+      <workItem from="1525940114245" duration="14906000" />
+      <workItem from="1526004453258" duration="70841000" />
+      <workItem from="1526308282312" duration="26008000" />
+      <workItem from="1526378258685" duration="6078000" />
+      <workItem from="1526432005884" duration="34599000" />
+      <workItem from="1526491917166" duration="346000" />
+      <workItem from="1526575466297" duration="4038000" />
+      <workItem from="1526618944801" duration="651000" />
+      <workItem from="1526694672256" duration="496000" />
+      <workItem from="1526818475493" duration="29141000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加测试用例">
+      <created>1526981320413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526981320414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ExcelReaderUtilTest_test5 - 2018.05.22 at 17h 03m 56s.xml">
+      <configuration name="ExcelReaderUtilTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_test6 - 2018.05.22 at 17h 06m 06s.xml">
+      <configuration name="ExcelReaderUtilTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_test7 - 2018.05.22 at 17h 11m 54s.xml">
+      <configuration name="ExcelReaderUtilTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_test8 - 2018.05.22 at 17h 12m 23s.xml">
+      <configuration name="ExcelReaderUtilTest.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_createExcel - 2018.05.22 at 17h 18m 02s.xml">
+      <configuration name="ExcelReaderUtilTest.createExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_test9 - 2018.05.22 at 17h 20m 39s.xml">
+      <configuration name="ExcelReaderUtilTest.test9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_test10 - 2018.05.22 at 17h 21m 15s.xml">
+      <configuration name="ExcelReaderUtilTest.test10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_createExcel - 2018.05.22 at 17h 22m 29s.xml">
+      <configuration name="ExcelReaderUtilTest.createExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_createExcel - 2018.05.22 at 17h 23m 09s.xml">
+      <configuration name="ExcelReaderUtilTest.createExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelReaderUtilTest_createExcel - 2018.05.22 at 17h 24m 31s.xml">
+      <configuration name="ExcelReaderUtilTest.createExcel" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="281865000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.34615386" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32943144" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25585285" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.26354083" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28093645" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29830235" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3779264" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43143812" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.2497979" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加测试用例" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>312</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>271</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>279</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>285</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>292</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>303</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>301</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/XSSFSheetXMLHandler.java</url>
+          <line>324</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/XSSFSheetXMLHandler.java</url>
+          <line>326</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/XSSFSheetXMLHandler.java</url>
+          <line>327</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="252" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>_formatIndex</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ModelExcelReaderListenerBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/util/ExcelDateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/XSSFSheetXMLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3443">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="536" column="25" selection-start-line="536" selection-start-column="25" selection-end-line="536" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/TestExcelReaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XSSFSheetXMLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="279" column="42" lean-forward="true" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/ContextClassLoaderLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/org/apache/commons/logging/impl/Jdk14Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/BeanUtilsBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/PropertyUtilsBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/expression/DefaultResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/ConvertUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/v03/ExcelReaderUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ProjectWithModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/EventExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/XLS2CSVmra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ReaderExcelUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/writer/Project.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/writer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/metadata/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/Decoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/writer/util/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/writer/util/ExcelWriterUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/context/ReaderContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2023">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/AutoModelExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="99" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5242#5243#0" expanded="true" />
+            <element signature="e#5271#5272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ExcelReaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/ExcelReaderListenerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/util/CommonConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/metadata/ExcelType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/annotation/Excel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/util/ExcelWriterContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV07Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/123.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV03Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/DefaultModelExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/listener/DefaultExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/resolver/ReaderResolverV07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/writer/util/ExcelWriterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="151" column="59" lean-forward="true" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/easyexcel4j/reader/util/ExcelReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="169" column="50" selection-start-line="169" selection-start-column="50" selection-end-line="169" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ReadLargeSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/TestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/easyexcel4j/reader/util/ExcelReaderUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>JDK1.8_144</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>easyexcel4j</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>JDK1.8_144</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.virtuald:curvesapi:1.04</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>LDZZDL</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
