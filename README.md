@@ -1,5 +1,5 @@
 # easyexcel4j
-基于Apache POI的理海量数据导入和简单导出的Excel工具
+基于Apache POI的海量数据导入和简单导出的Excel工具
 # 快速使用
 ## 导入
 ### 注解导入
