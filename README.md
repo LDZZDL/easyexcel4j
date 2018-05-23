@@ -270,8 +270,8 @@ public class ImportPerson {
     @Test
     public void test5() throws InvocationTargetException, NoSuchMethodException, IllegalAccessException, IOException {
         ExcelWriterUtil excelWriterUtil = new ExcelWriterUtil();
-        List<com.github.easyexcel4j.writer.util.Person> people = new ArrayList<>();
-        com.github.easyexcel4j.writer.util.Person person = new com.github.easyexcel4j.writer.util.Person();
+        List<Person> people = new ArrayList<>();
+        Person person = new Person();
         person.setAge(12);
         person.setName("jack");
         person.setSport("篮球");

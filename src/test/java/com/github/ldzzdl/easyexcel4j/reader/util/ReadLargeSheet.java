@@ -1,4 +1,4 @@
-package example;
+package com.github.ldzzdl.easyexcel4j.reader.util;
 
 import com.github.ldzzdl.easyexcel4j.reader.context.ReaderContext;
 import com.github.ldzzdl.easyexcel4j.reader.listener.ExcelReaderListener;
@@ -7,16 +7,14 @@ import java.util.List;
 
 /**
  * @author LDZZDL
- * @create 2018-05-23 0:59
+ * @create 2018-05-22 17:13
  **/
-public class LargeSheetListener implements ExcelReaderListener {
+public class ReadLargeSheet implements ExcelReaderListener {
 
     @Override
     public void invoke(List<String> datas, ReaderContext readerContext) {
         if(readerContext.getCurrentRowNumber() % 1000 == 0){
-            System.out.println("当前行为：" + readerContext.getCurrentRowNumber() +
-                readerContext.getCurrentSheetIndex() + "," +
-                readerContext.isBlankRow());
+            System.out.println("当前行为：" + readerContext.getCurrentRowNumber());
         }
     }
 }

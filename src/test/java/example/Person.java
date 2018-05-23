@@ -1,6 +1,6 @@
 package example;
 
-import com.github.easyexcel4j.annotation.Excel;
+import com.github.ldzzdl.easyexcel4j.annotation.Excel;
 
 import java.util.Date;
 
