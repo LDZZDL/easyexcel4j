@@ -26,6 +26,10 @@ public class ExcelWriterUtil {
      * @param list 模型数组
      * @param excelWriterContext Excel的导出上下文
      * @param <E> 泛型
+     * @throws IOException
+     * @throws IllegalAccessException
+     * @throws NoSuchMethodException
+     * @throws InvocationTargetException
      */
     public <E> void writeModelList2Excel(List<E> list, ExcelWriterContext excelWriterContext) throws IOException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
         ExcelType excelType = excelWriterContext.getExcelType();
@@ -50,6 +54,9 @@ public class ExcelWriterUtil {
      * @param wb 工作簿
      * @param excelWriterContext Excel的导出上下文
      * @param <E> 泛型
+     * @throws IllegalAccessException
+     * @throws InvocationTargetException
+     * @throws NoSuchMethodException
      */
     private <E> void createWorkBook(List<E> list, Workbook wb, ExcelWriterContext excelWriterContext) throws IllegalAccessException, InvocationTargetException, NoSuchMethodException {
         Sheet sheet = wb.createSheet();

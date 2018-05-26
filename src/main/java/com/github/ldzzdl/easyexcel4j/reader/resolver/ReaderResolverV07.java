@@ -2,7 +2,6 @@ package com.github.ldzzdl.easyexcel4j.reader.resolver;
 
 import com.github.ldzzdl.easyexcel4j.metadata.ExcelType;
 import com.github.ldzzdl.easyexcel4j.reader.context.ReaderContext;
-import com.github.easyexcel4j.reader.listener.*;
 import com.github.ldzzdl.easyexcel4j.reader.listener.ExcelReaderListener;
 import com.github.ldzzdl.easyexcel4j.reader.listener.ExcelReaderListenerManager;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
@@ -143,24 +142,24 @@ public class ReaderResolverV07 extends ExcelReaderListenerManager {
     }
 
     public void process(String path, ExcelReaderListener excelReaderListener, Class clazz) throws OpenXML4JException, SAXException, IOException {
-        OPCPackage opcPackage = OPCPackage.open(path, PackageAccess.READ);
-        this.opcPackage = opcPackage;
+        this.opcPackage = OPCPackage.open(path, PackageAccess.READ);
         init(excelReaderListener, clazz);
         process();
+        this.opcPackage.close();
     }
 
     public void process(File file, ExcelReaderListener excelReaderListener, Class clazz) throws OpenXML4JException, SAXException, IOException {
-        OPCPackage opcPackage = OPCPackage.open(file, PackageAccess.READ);
-        this.opcPackage = opcPackage;
+        this.opcPackage = OPCPackage.open(file, PackageAccess.READ);
         init(excelReaderListener, clazz);
         process();
+        this.opcPackage.close();
     }
 
     public void process(InputStream fileInputStream, ExcelReaderListener excelReaderListener, Class clazz) throws IOException, OpenXML4JException, SAXException {
-        OPCPackage opcPackage = OPCPackage.open(fileInputStream);
-        this.opcPackage = opcPackage;
+        this.opcPackage = OPCPackage.open(fileInputStream);
         init(excelReaderListener, clazz);
         process();
+        this.opcPackage.close();
     }
 
 }

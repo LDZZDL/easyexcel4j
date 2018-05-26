@@ -13,7 +13,7 @@ public class LargeSheetListener implements ExcelReaderListener {
 
     @Override
     public void invoke(List<String> datas, ReaderContext readerContext) {
-        if(readerContext.getCurrentRowNumber() % 1000 == 0){
+        if(readerContext.getCurrentRowNumber() % 10000 == 0){
             System.out.println("当前行为：" + readerContext.getCurrentRowNumber() +
                 readerContext.getCurrentSheetIndex() + "," +
                 readerContext.isBlankRow());

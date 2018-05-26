@@ -29,6 +29,9 @@ public class ExcelReaderUtil {
      * @param startSheetNumber 开始读取Sheet的序号（从1开始）
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @return List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public List<String> readExcel2List(String path, ExcelType excelType, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(new File(path));
@@ -43,6 +46,9 @@ public class ExcelReaderUtil {
      * @param startSheetNumber 开始读取Sheet的序号（从1开始）
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @return List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public List<String> readExcel2List(File file, ExcelType excelType, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(file);
@@ -57,6 +63,9 @@ public class ExcelReaderUtil {
      * @param startSheetNumber 开始读取Sheet的序号（从1开始）
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @return List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public List<String> readExcel2List(InputStream fileInputStream, ExcelType excelType, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         DefaultExcelReader defaultExcelReader = new DefaultExcelReader();
@@ -81,6 +90,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByOrder(String path, ExcelType excelType, Class clazz, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(new File(path));
@@ -97,6 +109,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByOrder(File file, ExcelType excelType, Class clazz, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(file);
@@ -113,6 +128,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByOrder(InputStream fileInputStream, ExcelType excelType, Class clazz, int startRowNumber, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         DefaultModelExcelReader defaultModelExcelReader = new DefaultModelExcelReader();
@@ -136,6 +154,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByTitle(String path, ExcelType excelType, Class clazz, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(new File(path));
@@ -151,6 +172,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByTitle(File file, ExcelType excelType, Class clazz, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         FileInputStream fileInputStream = new FileInputStream(file);
@@ -166,6 +190,9 @@ public class ExcelReaderUtil {
      * @param endSheetNumber 结束读取Sheet的序号（0代表读到末尾）
      * @param <E> 泛型
      * @return 模型的List数组
+     * @throws IOException
+     * @throws OpenXML4JException
+     * @throws SAXException
      */
     public <E> List<E> readExcel2ModelListByTitle(InputStream fileInputStream, ExcelType excelType, Class clazz, int startSheetNumber, int endSheetNumber) throws IOException, OpenXML4JException, SAXException {
         AutoModelExcelReader autoModelExcelReader = new AutoModelExcelReader();

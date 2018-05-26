@@ -17,8 +17,8 @@ import java.util.Random;
 
 public class ExcelReaderUtilTest {
 
-    @Test
-    public void createExcel() throws IOException {
+
+    private void createExcel() throws IOException {
         SXSSFWorkbook wb = null;
         FileOutputStream out = null;
         try{
@@ -58,94 +58,70 @@ public class ExcelReaderUtilTest {
 
     @Test
     public void test1() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/1.xls");
+
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
         List<String> list =
-                excelReaderUtil.readExcel2List(inputStream, ExcelType.XLS,1,1,1);
-        for(String string : list){
-            System.out.println(string);
-        }
+                excelReaderUtil.readExcel2List("src/test/java/doc/1.xls", ExcelType.XLS,1,1,1);
     }
 
     @Test
     public void test2() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/1.xlsx");
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
         List<String> list =
-                excelReaderUtil.readExcel2List(inputStream, ExcelType.XLSX,1,1,1);
-        for(String string : list){
-            System.out.println(string);
-        }
+                excelReaderUtil.readExcel2List("src/test/java/doc/1.xlsx", ExcelType.XLSX,1,1,1);
     }
 
     @Test
     public void test3() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/1.xls");
+
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
         List<String> list =
-                excelReaderUtil.readExcel2List(inputStream, ExcelType.XLS,1,1,0);
-        for(String string : list){
-            System.out.println(string);
-        }
+                excelReaderUtil.readExcel2List("src/test/java/doc/1.xls", ExcelType.XLS,1,1,0);
     }
 
     @Test
     public void test4() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/1.xlsx");
+
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
         List<String> list =
-                excelReaderUtil.readExcel2List(inputStream, ExcelType.XLSX,3,1,2);
-        for(String string : list){
-            System.out.println(string);
-        }
+                excelReaderUtil.readExcel2List("src/test/java/doc/1.xlsx", ExcelType.XLSX,3,1,2);
     }
 
     @Test
     public void test5() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/2.xls");
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
-        List<TestModel> list = excelReaderUtil.readExcel2ModelListByOrder(inputStream, ExcelType.XLS, TestModel.class,2,2,0);
-        for(TestModel testModel : list){
-            System.out.println(testModel);
-        }
+        List<TestModel> list = excelReaderUtil.readExcel2ModelListByOrder("src/test/java/doc/2.xls", ExcelType.XLS, TestModel.class,2,2,0);
     }
 
     @Test
     public void test6() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/2.xlsx");
+
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
-        List<TestModel> list = excelReaderUtil.readExcel2ModelListByOrder(inputStream, ExcelType.XLSX, TestModel.class,2,1,0);
-        for(TestModel testModel : list){
-            System.out.println(testModel);
-        }
+        List<TestModel> list = excelReaderUtil.readExcel2ModelListByOrder("src/test/java/doc/2.xlsx", ExcelType.XLSX, TestModel.class,2,1,0);
     }
 
     @Test
     public void test7() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/3.xls");
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
-        List<TestModel> list = excelReaderUtil.readExcel2ModelListByTitle(inputStream, ExcelType.XLS, TestModel.class,1,0);
-        for(TestModel testModel : list){
-            System.out.println(testModel);
-        }
+        List<TestModel> list = excelReaderUtil.readExcel2ModelListByTitle("src/test/java/doc/3.xls", ExcelType.XLS, TestModel.class,1,0);
     }
 
     @Test
     public void test8() throws OpenXML4JException, SAXException, IOException {
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/3.xlsx");
         ExcelReaderUtil excelReaderUtil = new ExcelReaderUtil();
-        List<TestModel> list = excelReaderUtil.readExcel2ModelListByTitle(inputStream, ExcelType.XLSX, TestModel.class,1,0);
-        for(TestModel testModel : list){
-            System.out.println(testModel);
-        }
+        List<TestModel> list = excelReaderUtil.readExcel2ModelListByTitle("src/test/java/doc/3.xlsx", ExcelType.XLSX, TestModel.class,1,0);
     }
 
     @Test
     public void test9() throws OpenXML4JException, SAXException, IOException {
         ReaderResolverV07 readerResolverV07 = new ReaderResolverV07();
-        InputStream inputStream = ExcelReaderUtilTest.class.getResourceAsStream("/doc/large.xlsx");
-        readerResolverV07.process(inputStream, new ReadLargeSheet(), null);
+        createExcel();
+        readerResolverV07.process("src/test/java/doc/large.xlsx", new ReadLargeSheet(), null);
+        System.out.println("enter");
+        File file = new File("src/test/java/doc/large.xlsx");
+        file.delete();
     }
+
 
 //    @Test
 //    public void test10() throws IOException {

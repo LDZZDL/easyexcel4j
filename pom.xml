@@ -2,22 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!-- 模型版本。maven2.0必须是这样写，现在是maven2唯一支持的版本 -->
+
     <modelVersion>4.0.0</modelVersion>
-    <!-- 公司或者组织的域名倒置 -->
-    <groupId>com.github</groupId>
-    <!-- 项目唯一标识 -->
+    <groupId>com.github.ldzzdl</groupId>
     <artifactId>easyexcel4j</artifactId>
-    <!-- 版本号 -->
     <version>1.0.0</version>
-    <!-- 打包方式 -->
     <packaging>jar</packaging>
-    <!-- 项目名称 -->
     <name>easyexcel4j</name>
-    <!-- 项目描述 -->
+    <url>https://github.com/LDZZDL/easyexcel4j</url>
     <description>easyexcel4j is tool handling excel written in Java</description>
 
-    <!-- 开发者 -->
     <developers>
         <developer>
             <id>LDZZDL</id>
@@ -26,7 +20,12 @@
         </developer>
     </developers>
 
-    <!-- 开源协议 -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    </properties>
+
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -34,7 +33,12 @@
         </license>
     </licenses>
 
-    <!-- 项目依赖 -->
+    <scm>
+        <connection>scm:https://github.com/LDZZDL/easyexcel4j.git</connection>
+        <developerConnection>scm:git:https://github.com/LDZZDL/easyexcel4j.git</developerConnection>
+        <url>https://github.com/LDZZDL/easyexcel4j</url>
+    </scm>
+
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -65,44 +69,92 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
 
     <build>
         <plugins>
-            <!-- 指定JDK版本号 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
-            <plugin>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
-                    <attach>true</attach>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
-
-
-
     </build>
 
+
+
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <version>2.2.1</version>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>2.9.1</version>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>oss</id>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+                </snapshotRepository>
+                <repository>
+                    <id>oss</id>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 
 
 </project>

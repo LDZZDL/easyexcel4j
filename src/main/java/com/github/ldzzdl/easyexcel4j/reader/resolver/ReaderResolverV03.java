@@ -224,11 +224,13 @@ public class ReaderResolverV03 extends ExcelReaderListenerManager implements HSS
     public void process(String excelPath, ExcelReaderListener excelReaderListener, Class clazz) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(new File(excelPath));
         process(fileInputStream, excelReaderListener, clazz);
+        fileInputStream.close();
     }
 
     public void process(File file, ExcelReaderListener excelReaderListener, Class clazz) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(file);
         process(fileInputStream, excelReaderListener, clazz);
+        fileInputStream.close();
     }
 
     public void process(InputStream fileInputStream, ExcelReaderListener excelReaderListener, Class clazz) throws IOException {
@@ -253,6 +255,8 @@ public class ReaderResolverV03 extends ExcelReaderListenerManager implements HSS
             req.addListenerForAllRecords(workbookBuildingListener);
         }
         factory.processWorkbookEvents(req, fs);
+        fs.close();
+        fileInputStream.close();
     }
 
 }
