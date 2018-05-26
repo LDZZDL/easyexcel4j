@@ -1,10 +1,33 @@
 # easyexcel4j
-基于Apache POI的海量数据导入和简单导出的Excel工具
-# 快速使用
-## 导入
-### 注解导入
 
-- 范围
+基于Apache POI的海量数据导入和简单导出的Excel工具
+
+# 快速使用
+
+---
+
+## 1. 导入
+
+--- 
+
+使用需要添加maven依赖
+
+```xml
+<!-- https://mvnrepository.com/artifact/com.github.ldzzdl/easyexcel4j -->
+<dependency>
+    <groupId>com.github.ldzzdl</groupId>
+    <artifactId>easyexcel4j</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+```
+
+
+
+
+### 1.1 注解导入
+
+* 说明
 
 <table>
     <tr>
@@ -12,8 +35,6 @@
         <td>xls、xlsx</td>
     </tr>
 </table>
-
-- 前提
 
 程序将读取到的每一行数据封装成JavaBean,每一列的值作为JavaBean的属性，所以Excel文件内容排版需要类似以下格式即每一列的值属于同一个属性，每一行的属性值属于同一个Class对象
 <table>
@@ -106,9 +127,9 @@
     </tr>
 </table>
 
-- 注解使用
+* 注解
 
-1. 定义
+利用`Excel`注解设置导入的相关信息，下面是注解的定义和注解的作用
 
 ```java
 public @interface Excel {
@@ -117,7 +138,6 @@ public @interface Excel {
 }
 ```
 
-2. 作用
 <table>
     <tr>
         <th>使用范围</th>
@@ -133,12 +153,15 @@ public @interface Excel {
     </tr>
 </table>
 
-3. 举例
+
+* 举例
+
 假如你要导入如下图所示的Excel文件，并封装成Person对象
 
 ![excel文件](https://picture-1253615005.cos.ap-guangzhou.myqcloud.com/Snipaste_2018-05-22_20-57-51.png)
 
-只需要在Person对象中添加注解
+只需要在Person对象中添加注解，即可
+
 ```java
 public class Person{
     //2代表第2列
@@ -155,9 +178,8 @@ public class Person{
 }
 ```
 
-- 方法使用
-
 使用`ExcelReaderUtil`工具类中的`readExcel2ModelListByOrder`或者`readExcel2ModelListByTitle`方法
+
 ```java
     public class ImportPerson {
     
@@ -196,13 +218,13 @@ public class Person{
     }
 ```
 
-### 非注解导入
+### 1.2 非注解导入
 
-1. 假如你如要导入如下图所示的Excel文件
+假如你如要导入如下图所示的Excel文件
 
 ![excel文件](https://picture-1253615005.cos.ap-guangzhou.myqcloud.com/Snipaste_2018-05-22_20-57-51.png)
 
-2. 使用`ExcelReaderUtil`工具类中的`readExcel2List`方法
+你可以使用`ExcelReaderUtil`工具类中的`readExcel2List`方法
 
 ```java
 public class ImportPerson {
@@ -225,7 +247,7 @@ public class ImportPerson {
 }
 ```
 
-### 大数量导入
+### 1.3 大数量导入
 1. 比如你想从Excel中读取10万行的数据，插入的数据库中，或者统计相关信息，这个时候上述的方法可能对你不管用了，
 因为你如果将10万行的数据保存到内存中，往往会导致内存溢出错误
 
@@ -262,8 +284,11 @@ public class ImportPerson {
 }
 ```
 
-## 导出
-### 简单导出
+## 2 导出
+
+---
+
+### 2.1 简单导出
 ```java
 public class ImportPerson {
 
